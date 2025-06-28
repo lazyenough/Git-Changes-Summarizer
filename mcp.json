@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "summarizer": {
+      "type": "command",
+      "command": "uv",
+      "args": [
+          "--directory",
+          "PATH TO SERVER FILE",
+          "run",
+          "server.py"
+        ]
+    }
+  }
+}
