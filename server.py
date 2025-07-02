@@ -39,4 +39,5 @@ def get_git_changes(base_repo: str):
 
 if __name__ == "__main__":
     print("Starting the server...")
-    app.run()
+    # app.run(transport="streamable-http")
+    app.run(host="0.0.0.0", port="8080", transport="streamable-http")
